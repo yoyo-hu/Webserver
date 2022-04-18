@@ -1,0 +1,69 @@
+2022-04-15 14:35:35.893906 [info] : ========== Server init ==========
+2022-04-15 14:35:35.893932 [info] : Port:1316, OpenLinger: false
+2022-04-15 14:35:35.893938 [info] : Listen Mode: ET, OpenConn Mode: ET
+2022-04-15 14:35:35.893941 [info] : LogSys level: 1
+2022-04-15 14:35:35.893943 [info] : srcDir: /home/ubuntu/test/WebServer-master/resources/
+2022-04-15 14:35:35.894026 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2022-04-15 14:35:35.894034 [info] : ========== Server start ==========
+2022-04-15 14:35:39.505039 [info] : Client[18](192.168.37.1:8163) in, userCount:1
+2022-04-15 14:35:39.505402 [info] : Client[18] in!
+2022-04-15 14:35:39.505504 [info] : Client[19](192.168.37.1:8419) in, userCount:2
+2022-04-15 14:35:39.505607 [info] : Client[19] in!
+2022-04-15 14:35:39.547202 [info] : Client[20](192.168.37.1:8675) in, userCount:3
+2022-04-15 14:35:39.551511 [info] : Client[20] in!
+2022-04-15 14:35:39.552105 [info] : Client[21](192.168.37.1:8931) in, userCount:4
+2022-04-15 14:35:39.552215 [info] : Client[21] in!
+2022-04-15 14:35:39.552257 [info] : Client[22](192.168.37.1:9187) in, userCount:5
+2022-04-15 14:35:39.552362 [info] : Client[22] in!
+2022-04-15 14:35:39.554178 [info] : Client[23](192.168.37.1:9443) in, userCount:6
+2022-04-15 14:35:39.554250 [info] : Client[23] in!
+2022-04-15 14:35:59.744269 [info] : Verify name:user1 pwd:123
+2022-04-15 14:35:59.755560 [error]: RequestLine Error
+2022-04-15 14:35:59.755843 [info] : Client[21] quit!
+2022-04-15 14:35:59.756184 [info] : Client[21](192.168.37.1:8931) quit, UserCount:5
+2022-04-15 14:35:59.776713 [info] : Client[21](192.168.37.1:10979) in, userCount:6
+2022-04-15 14:35:59.776902 [info] : Client[21] in!
+2022-04-15 14:36:08.222521 [info] : Verify name:user1 pwd:123
+2022-04-15 14:36:08.225902 [error]: RequestLine Error
+2022-04-15 14:36:08.226077 [info] : Client[23] quit!
+2022-04-15 14:36:08.226166 [info] : Client[23](192.168.37.1:9443) quit, UserCount:5
+2022-04-15 14:36:08.246891 [info] : Client[23](192.168.37.1:12003) in, userCount:6
+2022-04-15 14:36:08.247974 [info] : Client[23] in!
+2022-04-15 14:37:14.296998 [info] : Client[20] quit!
+2022-04-15 14:37:14.297512 [info] : Client[20](192.168.37.1:8675) quit, UserCount:5
+2022-04-15 14:37:14.297641 [info] : Client[22] quit!
+2022-04-15 14:37:14.297782 [info] : Client[22](192.168.37.1:9187) quit, UserCount:4
+2022-04-15 14:37:14.297906 [info] : Client[23] quit!
+2022-04-15 14:37:14.298155 [info] : Client[23](192.168.37.1:12003) quit, UserCount:3
+2022-04-15 14:37:14.298318 [info] : Client[21] quit!
+2022-04-15 14:37:14.298470 [info] : Client[21](192.168.37.1:10979) quit, UserCount:2
+2022-04-15 14:37:14.298607 [info] : Client[18] quit!
+2022-04-15 14:37:14.298717 [info] : Client[18](192.168.37.1:8163) quit, UserCount:1
+2022-04-15 14:37:16.884587 [info] : Client[19] quit!
+2022-04-15 14:37:16.886982 [info] : Client[19](192.168.37.1:8419) quit, UserCount:0
+2022-04-15 14:37:45.073183 [info] : Client[18](192.168.37.1:18659) in, userCount:1
+2022-04-15 14:37:45.073382 [info] : Client[18] in!
+2022-04-15 14:37:45.110375 [info] : Client[19](192.168.37.1:18915) in, userCount:2
+2022-04-15 14:37:45.110529 [info] : Client[19] in!
+2022-04-15 14:37:45.111303 [info] : Client[20](192.168.37.1:19171) in, userCount:3
+2022-04-15 14:37:45.111374 [info] : Client[20] in!
+2022-04-15 14:37:45.112925 [info] : Client[21](192.168.37.1:19427) in, userCount:4
+2022-04-15 14:37:45.113038 [info] : Client[21] in!
+2022-04-15 14:37:45.113842 [info] : Client[22](192.168.37.1:19683) in, userCount:5
+2022-04-15 14:37:45.113892 [info] : Client[22] in!
+2022-04-15 14:37:52.892020 [info] : Verify name:user2 pwd:123456
+2022-04-15 14:37:52.900800 [error]: RequestLine Error
+2022-04-15 14:37:52.901097 [info] : Client[18] quit!
+2022-04-15 14:37:52.901229 [info] : Client[18](192.168.37.1:18659) quit, UserCount:4
+2022-04-15 14:37:52.918053 [info] : Client[23](192.168.37.1:20451) in, userCount:5
+2022-04-15 14:37:52.918210 [info] : Client[23] in!
+2022-04-15 14:38:52.950669 [info] : Client[18] quit!
+2022-04-15 14:38:52.950870 [info] : Client[19] quit!
+2022-04-15 14:38:52.951084 [info] : Client[19](192.168.37.1:18915) quit, UserCount:4
+2022-04-15 14:38:52.951216 [info] : Client[23] quit!
+2022-04-15 14:38:52.951456 [info] : Client[23](192.168.37.1:20451) quit, UserCount:3
+2022-04-15 14:38:52.951776 [info] : Client[21] quit!
+2022-04-15 14:38:52.951923 [info] : Client[21](192.168.37.1:19427) quit, UserCount:2
+2022-04-15 14:38:52.951976 [info] : Client[22] quit!
+2022-04-15 14:38:52.952029 [info] : Client[22](192.168.37.1:19683) quit, UserCount:1
+2022-04-15 14:38:52.952077 [info] : Client[20] quit!

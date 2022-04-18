@@ -1,0 +1,18 @@
+2022-04-18 01:06:04.882042 [info] : ========== Server init ==========
+2022-04-18 01:06:04.882075 [info] : Port:1316, OpenLinger: false
+2022-04-18 01:06:04.882082 [info] : Listen Mode: ET, OpenConn Mode: ET
+2022-04-18 01:06:04.882085 [info] : LogSys level: 1
+2022-04-18 01:06:04.882089 [info] : srcDir: /home/ubuntu/test/WebServer/resources/
+2022-04-18 01:06:04.882092 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2022-04-18 01:06:04.882096 [info] : ========== Server start ==========
+2022-04-18 01:06:21.931815 [info] : Client[18](192.168.37.1:59359) in, userCount:1
+2022-04-18 01:06:21.932080 [info] : Client[18] in!
+2022-04-18 01:06:21.932138 [info] : Client[19](192.168.37.1:59615) in, userCount:2
+2022-04-18 01:06:21.932174 [info] : Client[19] in!
+2022-04-18 01:06:21.961565 [info] : Client[20](192.168.37.1:59871) in, userCount:3
+2022-04-18 01:06:21.961758 [info] : Client[20] in!
+2022-04-18 01:06:21.962967 [info] : Client[21](192.168.37.1:60127) in, userCount:4
+2022-04-18 01:06:21.963117 [info] : Client[21] in!
+2022-04-18 01:06:21.963155 [info] : Client[22](192.168.37.1:60383) in, userCount:5
+2022-04-18 01:06:21.963169 [info] : Client[22] in!
+2022-04-18 01:06:21.976577 [info] : Client[23](192.168.37.1:60639) in, userCount:6
