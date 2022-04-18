@@ -59,8 +59,8 @@ private:
     int iovCnt_;
     struct iovec iov_[2];
     
-    Buffer readBuff_; // 读缓冲区,用来保存请求数据的内容
-    Buffer writeBuff_; // 写缓冲区，用来保存相应数据的内容
+    Buffer readBuff_;   // 读缓冲区,用来保存请求数据的内容
+    Buffer writeBuff_;  // 写缓冲区，用来保存相应数据的内容
 
     HttpRequest request_;
     HttpResponse response_;

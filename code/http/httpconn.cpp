@@ -55,7 +55,7 @@ int HttpConn::GetPort() const {
 ssize_t HttpConn::read(int* saveErrno) {
     ssize_t len = -1;
     do {
-        //读数据到readBuff_中
+        // 客户端的套接字中读数据到readBuff_中
         len = readBuff_.ReadFd(fd_, saveErrno);
         if (len <= 0) {
             break;
